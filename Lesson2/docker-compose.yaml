@@ -1,0 +1,8 @@
+services:
+    php:
+        image: php7.4-cli-with-xdebug
+        build: .
+        user:
+            1000:1000
+        volumes:
+            - ./:/srv
